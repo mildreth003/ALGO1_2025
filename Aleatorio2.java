@@ -1,7 +1,7 @@
 public class Aleatorio2 {
     public static void main(String[] args) {
         System.out.println(" genera al azar piedra, papel o tijera"); 
-
+ 
         int mano=(int) (Math.random()*3);
         switch (mano) {
             case 0:
